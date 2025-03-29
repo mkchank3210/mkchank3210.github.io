@@ -49,3 +49,10 @@ a:hover {
     text-decoration: underline;
     color:blueviolet;
 }
+
+#sigEvent1,
+#sigEvent2,
+#sigEvent3 {
+    width:350px;
+    margin-top: 5px;
+}
