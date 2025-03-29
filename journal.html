@@ -1,53 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Learning Journal</title>
 </head>
+
 <body>
     <div class="topnav">
         <a href="index.html">Home</a>
         <a href="journal.html">Journal</a>
-    <h1>Journey to Becoming a Programmer</h1>
-    <p>Routinely captured thoughts to remind me what I've done and keep a record of this journey.</p>
-    <p>I opened this part of my site on 22 March 2025.  I started self-teaching around February 2025.</p>
-    <p>In terms of web development all I know is html right now, so this is a BASIC page written all in 
-        HTML till I learn more basic techniques.</p>
-    <hr>
-    <h2>24 March 2025</h2>
-    <h3>Significant Events</h3>
-    <ul>
-        <li>Completed the Basic CSS module of the freeCodeCamp lessons.</li>
-        <li>Wrote a To-Do List by following along with a YouTube video.</li>
-    </ul>
-    <h3>Thoughts</h3>
-    Working on the To-Do List was a good exercise.  I was able to follow along and type the code out for the HTML
-    and CSS because I already knew what the code was doing.  I'm glad I didn't wait to learn Javascript before doing this.
-    Walking through the js in the video was pretty easy because I already know some programming basics. 
-    For the values, properties, elements and other code I didn't know, I used Copilot to explain those if they didn't in the
-    youtube video. Repetition and using AI to help me understand what code means will be key.
-    <p>Next I will branch my repo and add the To-Do List to my site and practice merging.</p>
-    <h2>22 March 2025</h2>
-    <h3>Significant Events</h3>
-    <ul>
-        <li>Completed the freeCodeCamp HTML course and now into the CSS.</li>
-        <li>Added this journal page to track my progress.</li>
-    </ul>
-    <h3>Thoughts</h3>
-    I know this site will benefit from understaning CSS and this page specifically will benefit from javascript.
-    Right now the whole page is in HTML, but future entries should be able to be stored in a data file of some type.
+        <h1>Journey to Becoming a Programmer</h1>
+        <p>Routinely captured thoughts to remind me what I've done and keep a record of this journey.</p>
+        <p>I opened this part of my site on 22 March 2025. I started self-teaching around February 2025.</p>
+        <p>In terms of web development all I know is html right now, so this is a BASIC page written all in
+            HTML till I learn more basic techniques.</p>
+        <hr>
+        <div class="daily-entries">
 
-    <h2>Up to 21 March 2025</h2>
-    What I've done so far:
-    <ul>
-        <li>20 Mar 2025: Completed the HTML part of the freeCodeCamp full stack course.</li>
-        <li>Mar 2025: Completed YouTube classes to learn how to use git and GitHub.</li>
-        <li>Mar 2025: Started work on my first app.  The basic task tracker app in .NET using a web form application (WFA).  
-            It was completed but data was not being saved.  I have not learned how to work with data yet.</li>
-        <li>Feb-Mar '25: Learned C# basics through the freeCodeCamp and Microsoft Learn C# Fundamentals Course</li>
-    </ul>
+            <h2>29 March 2025</h2>
+            <h3>Significant Events</h3>
+            <ul class="sigEvents-list">
+                <li>Started a project specficiation document for my Daily Organizer Web App.</li>
+                <li>Parallel learning the css and js freeCodeCamp courses.</li>
+                <li>Started using Copilot AI to dicsuss how to make my app.</li>
+
+            </ul>
+            <h3>Thoughts</h3>
+            <div class="thought-entry">I have started a document to track my thoughts and ideas on what I want my first
+                personal app for learning. I refined
+                the requirements by discussing these details with the general online Copilot AI (not in GitHub of
+                VScode).
+                I worked out the tech stack for my app this way. Frontend: vue.js; Backend: node.js; storage: SQLite; and authentication: Firebase.
+                I know it's ambitious because I'm still just learning css and js, but I'll just need to take it
+                methodically. I have no timeline
+                so can take my time to learn what I need to know.
+                <p>I could not wait to work on the js course because the css course is very long. I really wanted to
+                    start learning js.</p>
+                <p>I forgot to add in my last entry that the To-Do List I made helped me understand how to use localStorage with webapps.
+                    Reviewing localStorage capabilities with Copilot I understand that its limited in size and local to the browser being used.
+                    I will need to use something like SQLite or MongoDB to store data for my app.</p>
+                </p>
+            </div>
+            <h2>24 March 2025</h2>
+            <h3>Significant Events</h3>
+            <ul class="sigEvents-list">
+                <li>Completed the Basic CSS module of the freeCodeCamp lessons.</li>
+                <li>Wrote a To-Do List by following along with a YouTube video.</li>
+            </ul>
+            <h3>Thoughts</h3>
+            <div class="thought-entry">Working on the To-Do List was a good exercise. I was able to follow along and
+                type the code out for the HTML
+                and CSS because I already knew what the code was doing. I'm glad I didn't wait to learn Javascript
+                before
+                doing this.
+                Walking through the js in the video was pretty easy because I already know some programming basics.
+                For the values, properties, elements and other code I didn't know, I used Copilot to explain those if
+                they
+                didn't in the
+                youtube video. Repetition and using AI to help me understand what code means will be key.
+                <p>Next I will branch my repo and add the To-Do List to my site and practice merging.</p>
+            </div>
+            <h2>22 March 2025</h2>
+            <h3>Significant Events</h3>
+            <ul class="sigEvents-list">
+                <li>Completed the freeCodeCamp HTML course and now into the CSS.</li>
+                <li>Added this journal page to track my progress.</li>
+            </ul>
+            <h3>Thoughts</h3>
+            <div class="thought-entry">I know this site will benefit from understaning CSS and this page specifically
+                will benefit from javascript.
+                Right now the whole page is in HTML, but future entries should be able to be stored in a data file of
+                some
+                type.
+            </div>
+            <h2>Up to 21 March 2025</h2>
+            What I've done so far:
+            <ul class="sigEvents-list">
+                <li>20 Mar 2025: Completed the HTML part of the freeCodeCamp full stack course.</li>
+                <li>Mar 2025: Completed YouTube classes to learn how to use git and GitHub.</li>
+                <li>Mar 2025: Started work on my first app. The basic task tracker app in .NET using a web form
+                    application (WFA).
+                    It was completed but data was not being saved. I have not learned how to work with data yet.</li>
+                <li>Feb-Mar '25: Learned C# basics through the freeCodeCamp and Microsoft Learn C# Fundamentals Course
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
+
 </html>
