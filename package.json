@@ -1,0 +1,23 @@
+{
+  "name": "awasemikesite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkchank3210/mkchank3210.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkchank3210/mkchank3210.github.io/issues"
+  },
+  "homepage": "https://github.com/mkchank3210/mkchank3210.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "firebase": "^11.5.0"
+  }
+}
